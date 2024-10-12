@@ -1,8 +1,26 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { MemoryRouter } from 'react-router-dom';
+import App from '../App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders HomePage on default route', () => {
+  // Using MemoryRouter to simulate routing for the test
+  render(
+    <MemoryRouter initialEntries={['/']}>
+      <App />
+    </MemoryRouter>
+  );
+
+  const homeHeading = screen.getByText(/Khalid Kana'an/i);
+  expect(homeHeading).toBeInTheDocument();
+});
+
+test('renders ExperiencePage on /experience route', () => {
+  render(
+    <MemoryRouter initialEntries={['/experience']}>
+      <App />
+    </MemoryRouter>
+  );
+
+  const experienceHeading = screen.getByText(/DevOps Engineer/i);
+  expect(experienceHeading).toBeInTheDocument();
 });
