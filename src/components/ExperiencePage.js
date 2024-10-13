@@ -1,11 +1,12 @@
 import React from 'react';
+import BasePage from './BasePage';
 
-function ExperiencePage() {
+const ExperiencePage = () => {
   return (
-    <div>
+    <BasePage>
       <h1>DevOps Engineer</h1>
-    </div>
+    </BasePage>
   );
-}
+};
 
 export default ExperiencePage;

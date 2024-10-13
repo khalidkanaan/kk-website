@@ -1,11 +1,12 @@
 import React from 'react';
+import BasePage from './BasePage';
 
-function HomePage() {
+const HomePage = () => {
   return (
-    <div>
+    <BasePage>
       <h1>Khalid Kana'an</h1>
-    </div>
+    </BasePage>
   );
-}
+};
 
 export default HomePage;
