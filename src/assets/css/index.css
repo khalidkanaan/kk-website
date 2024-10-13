@@ -1,4 +1,15 @@
+@keyframes animatedBackground {
+  0% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
+}
+
 body {
+  background-image: url('../img/background.svg'), linear-gradient(#050005, #3d66c5, #ba3dc5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: animatedBackground 200s linear infinite alternate;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
