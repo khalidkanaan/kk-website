@@ -11,7 +11,9 @@ test('renders HomePage on default route', () => {
   );
 
   const homeHeading = screen.getByText(/Khalid Kana'an/i);
+  const logoElement = screen.getByText(/KHALIDKANAAN/i);
   expect(homeHeading).toBeInTheDocument();
+  expect(logoElement).toBeInTheDocument();
 });
 
 test('renders ExperiencePage on /experience route', () => {

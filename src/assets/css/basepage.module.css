@@ -1,0 +1,36 @@
+.baseWrapper {
+  width: 100%;
+  max-width: 80vw;
+  min-height: 85vh;
+  padding: 1rem;
+  margin: 1.5vh auto 0 auto;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .baseWrapper {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .baseWrapper {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .baseWrapper {
+    width: 65%;
+  }
+}
