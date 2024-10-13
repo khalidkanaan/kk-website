@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 7680 2160">
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:dc="http://purl.org/dc/elements/1.1/" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 7680 2160">
+  <metadata>
+    <dc:title>My Tools</dc:title>
+    <dc:creator>Khalid Kana'an</dc:creator>
+    <dc:date>2024-10-12</dc:date>
+    <dc:description>This SVG contains icons of technologies I use</dc:description>
+    <dc:rights>© 2024 Khalid Kana'an. All rights reserved.</dc:rights>
+  </metadata>
   <defs>
     <linearGradient id="a" x1="1" x2=".6" y1="0" y2=".4" gradientUnits="objectBoundingBox" spreadMethod="pad">
       <stop offset="18%" stop-color="#0052cc"/>
