@@ -1,16 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../assets/css/header.module.css';
+import hamburgerButton from '../assets/img/hamburger.svg'; // import the hamburger icon
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Function to toggle the menu
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className={styles.header}>
       <Link to="/" className={styles.logo}>KHALIDKANAAN</Link>
-      <nav>
-          <Link to="/">Introduction</Link>
-          <Link to="/Experience">Experience</Link>
-          <Link to="/Projects">Projects</Link>
-          <Link to="/Education">Education</Link>
+      <img
+        src={hamburgerButton}
+        alt="Menu"
+        className={styles.hamburger}
+        onClick={toggleMenu}
+      />
+      <nav className={menuOpen ? styles.active : ''}>
+        <Link to="/" onClick={toggleMenu}>Introduction</Link>
+        <Link to="/Experience" onClick={toggleMenu}>Experience</Link>
+        <Link to="/Projects" onClick={toggleMenu}>Projects</Link>
+        <Link to="/Education" onClick={toggleMenu}>Education</Link>
       </nav>
     </div>
   );
