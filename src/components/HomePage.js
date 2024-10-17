@@ -1,11 +1,22 @@
 import React from 'react';
 import BasePage from './BasePage';
+import Card from './Card';
+import introData from '../assets/data/introData';
 
 const HomePage = () => {
+  const leftCards = [introData.Welcome, introData.KhalidInDesert];
+  const rightCards = [introData.AboutMe, introData.Links, introData.Tools, introData.KhalidCoding];
+
+  // Helper function to render multiple cards
+  const renderCards = (cards) => {
+    return cards.map((card, index) => <Card key={index} data={card} />);
+  };
+
   return (
-    <BasePage>
-      <h1>Khalid Kana'an</h1>
-    </BasePage>
+    <BasePage
+      leftChildren={<>{renderCards(leftCards)}</>}
+      rightChildren={<>{renderCards(rightCards)}</>}
+    />
   );
 };
 

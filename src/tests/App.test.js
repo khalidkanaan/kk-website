@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import introData from '../assets/data/introData';
 import App from '../App';
 
 // Helper function to render App with MemoryRouter
@@ -11,28 +12,29 @@ const renderWithRouter = (route) => {
   );
 };
 
-// Helper function to check navigation links
-const checkNavigationLinks = () => {
-  const introLink = screen.getByText(/Introduction/i);
-  const experienceLink = screen.getByText(/Experience/i);
-  const projectsLink = screen.getByText(/Projects/i);
-  const educationLink = screen.getByText(/Education/i);
+// Helper function to check header elements
+const checkHeaderElements = () => {
+  const introLink = screen.getByRole('link', { name: /Introduction/i });
+  const experienceLink = screen.getByRole('link', { name: /Experience/i });
+  const projectsLink = screen.getByRole('link', { name: /Projects/i });
+  const educationLink = screen.getByRole('link', { name: /Education/i });
+  const logoElement = screen.getByText(/KHALIDKANAAN/i);
 
   expect(introLink).toBeInTheDocument();
   expect(experienceLink).toBeInTheDocument();
   expect(projectsLink).toBeInTheDocument();
   expect(educationLink).toBeInTheDocument();
+  expect(logoElement).toBeInTheDocument();
 };
 
 test('renders HomePage on default route', () => {
   renderWithRouter('/');
 
-  const homeHeading = screen.getByText(/Khalid Kana'an/i);
-  const logoElement = screen.getByText(/KHALIDKANAAN/i);
-  expect(homeHeading).toBeInTheDocument();
-  expect(logoElement).toBeInTheDocument();
+  // Check something unique from HomePage's Card components
+  const uniqueHomePageElement = screen.getByText(introData.KhalidInDesert.description);
+  expect(uniqueHomePageElement).toBeInTheDocument();
 
-  checkNavigationLinks();
+  checkHeaderElements();
 });
 
 test('renders ExperiencePage on /experience route', () => {
@@ -41,5 +43,5 @@ test('renders ExperiencePage on /experience route', () => {
   const experienceHeading = screen.getByText(/DevOps Engineer/i);
   expect(experienceHeading).toBeInTheDocument();
 
-  checkNavigationLinks();
+  checkHeaderElements();
 });
