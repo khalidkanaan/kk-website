@@ -26,6 +26,12 @@ jobs:
       - name: Build the app
         run: npm run build
 
+      # Set up Git config for the deploy step
+      - name: Configure Git
+        run: |
+          git config --global user.email "khalid.kanaan.ca@gmail.ca"
+          git config --global user.name "Khalid Kana'an"
+
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: npm run deploy
