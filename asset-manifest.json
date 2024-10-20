@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78e5597a.css",
+    "main.js": "/static/js/main.4042a4b3.js",
+    "static/media/me.jpg": "/static/media/me.8c63f6fb73a96429ae71.jpg",
+    "static/media/me-coding.jpg": "/static/media/me-coding.75d6048f4a52a9ab54a8.jpg",
+    "static/media/background.svg": "/static/media/background.fa3b1181537fa886d651.svg",
+    "index.html": "/index.html",
+    "static/media/hamburger.svg": "/static/media/hamburger.66e65040a39bc10b980155ffdabac17e.svg",
+    "main.78e5597a.css.map": "/static/css/main.78e5597a.css.map",
+    "main.4042a4b3.js.map": "/static/js/main.4042a4b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78e5597a.css",
+    "static/js/main.4042a4b3.js"
+  ]
+}
