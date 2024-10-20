@@ -1,7 +1,7 @@
 {
   "name": "kk-website",
   "version": "0.1.0",
-  "homepage": "https://khalidkanaan.github.io/",
+  "homepage": "https://khalidkanaan.github.io/kk-website",
   "private": true,
   "dependencies": {
     "react": "^18.3.1",
