@@ -10,7 +10,7 @@
 }
 
 .header .logo {
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Brush Script MT', cursive, inherit;
   color: white;
   text-decoration: none;
   font-size: 2rem;
