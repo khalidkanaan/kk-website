@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kk-website/static/css/main.89dbe306.css",
+    "main.css": "/kk-website/static/css/main.d96145cc.css",
     "main.js": "/kk-website/static/js/main.343df9b4.js",
     "static/media/me.jpg": "/kk-website/static/media/me.8c63f6fb73a96429ae71.jpg",
     "static/media/me-coding.jpg": "/kk-website/static/media/me-coding.75d6048f4a52a9ab54a8.jpg",
     "static/media/background.svg": "/kk-website/static/media/background.fa3b1181537fa886d651.svg",
     "index.html": "/kk-website/index.html",
     "static/media/hamburger.svg": "/kk-website/static/media/hamburger.66e65040a39bc10b980155ffdabac17e.svg",
-    "main.89dbe306.css.map": "/kk-website/static/css/main.89dbe306.css.map",
+    "main.d96145cc.css.map": "/kk-website/static/css/main.d96145cc.css.map",
     "main.343df9b4.js.map": "/kk-website/static/js/main.343df9b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.89dbe306.css",
+    "static/css/main.d96145cc.css",
     "static/js/main.343df9b4.js"
   ]
 }
