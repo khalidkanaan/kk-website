@@ -22,9 +22,9 @@ function Header() {
       />
       <nav className={menuOpen ? styles.active : ''}>
         <Link to="/" onClick={toggleMenu}>Introduction</Link>
-        <Link to="/Experience" onClick={toggleMenu}>Experience</Link>
-        <Link to="/Projects" onClick={toggleMenu}>Projects</Link>
-        <Link to="/Education" onClick={toggleMenu}>Education</Link>
+        <Link to="/experience" onClick={toggleMenu}>Experience</Link>
+        <Link to="/projects" onClick={toggleMenu}>Projects</Link>
+        <Link to="/education" onClick={toggleMenu}>Education</Link>
       </nav>
     </div>
   );
