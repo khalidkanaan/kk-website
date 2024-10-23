@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import HomePage from '../components/HomePage';
+import HomePage from '../pages/HomePage';
 import introData from '../assets/data/introData';
 
 jest.mock('../components/Card', () => ({ data }) => (

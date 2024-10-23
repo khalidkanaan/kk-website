@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import './assets/css/App.css';
 import Header from "./components/Header"
-import HomePage from "./components/HomePage";
-import ExperiencePage from "./components/ExperiencePage";
+import HomePage from "./pages/HomePage";
+import ExperiencePage from "./pages/ExperiencePage";
 
 function App() {
   return (

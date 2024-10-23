@@ -1,6 +1,6 @@
 import React from 'react';
-import BasePage from './BasePage';
-import Card from './Card';
+import BasePage from '../components/BasePage';
+import Card from '../components/Card';
 import experienceData from '../assets/data/expeirenceData';
 
 const ExperiencePage = () => {

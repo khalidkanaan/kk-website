@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import ExperiencePage from '../components/ExperiencePage';
+import ExperiencePage from '../pages/ExperiencePage';
 import experienceData from '../assets/data/expeirenceData'
 
 jest.mock('../components/Card', () => ({ data }) => (
