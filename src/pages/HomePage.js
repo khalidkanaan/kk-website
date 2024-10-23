@@ -1,6 +1,6 @@
 import React from 'react';
-import BasePage from './BasePage';
-import Card from './Card';
+import BasePage from '../components/BasePage';
+import Card from '../components/Card';
 import introData from '../assets/data/introData';
 
 const HomePage = () => {
