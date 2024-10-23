@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import introData from '../assets/data/introData';
+import experienceData from '../assets/data/expeirenceData'
 import App from '../App';
 
 // Helper function to render App with MemoryRouter
@@ -30,7 +31,6 @@ const checkHeaderElements = () => {
 test('renders HomePage on default route', () => {
   renderWithRouter('/');
 
-  // Check something unique from HomePage's Card components
   const uniqueHomePageElement = screen.getByText(introData.KhalidInDesert.description);
   expect(uniqueHomePageElement).toBeInTheDocument();
 
@@ -40,8 +40,8 @@ test('renders HomePage on default route', () => {
 test('renders ExperiencePage on /experience route', () => {
   renderWithRouter('/experience');
 
-  const experienceHeading = screen.getByText(/DevOps Engineer/i);
-  expect(experienceHeading).toBeInTheDocument();
+  const uniqueExperiencePageElement = screen.getByText(experienceData.HealthCanada.subtitle);
+  expect(uniqueExperiencePageElement).toBeInTheDocument();
 
   checkHeaderElements();
 });
