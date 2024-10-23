@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/kk-website/static/css/main.593664d5.css",
-    "main.js": "/kk-website/static/js/main.3df66ffb.js",
+    "main.js": "/kk-website/static/js/main.8c70a422.js",
     "static/media/me.jpg": "/kk-website/static/media/me.8c63f6fb73a96429ae71.jpg",
     "static/media/me-coding.jpg": "/kk-website/static/media/me-coding.75d6048f4a52a9ab54a8.jpg",
+    "static/media/interac.jpg": "/kk-website/static/media/interac.a5550a0085d47eb416b4.jpg",
     "static/media/background.svg": "/kk-website/static/media/background.fa3b1181537fa886d651.svg",
+    "static/media/cpost.jpg": "/kk-website/static/media/cpost.077cb25323cf1d434a5c.jpg",
+    "static/media/hc.jpg": "/kk-website/static/media/hc.de9d74ee6f6a7f6c9a2d.jpg",
     "index.html": "/kk-website/index.html",
     "static/media/hamburger.svg": "/kk-website/static/media/hamburger.66e65040a39bc10b980155ffdabac17e.svg",
     "main.593664d5.css.map": "/kk-website/static/css/main.593664d5.css.map",
-    "main.3df66ffb.js.map": "/kk-website/static/js/main.3df66ffb.js.map"
+    "main.8c70a422.js.map": "/kk-website/static/js/main.8c70a422.js.map"
   },
   "entrypoints": [
     "static/css/main.593664d5.css",
-    "static/js/main.3df66ffb.js"
+    "static/js/main.8c70a422.js"
   ]
 }
