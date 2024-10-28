@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/kk-website/static/css/main.593664d5.css",
-    "main.js": "/kk-website/static/js/main.8c70a422.js",
+    "main.css": "/kk-website/static/css/main.52387044.css",
+    "main.js": "/kk-website/static/js/main.ff6c05db.js",
     "static/media/me.jpg": "/kk-website/static/media/me.8c63f6fb73a96429ae71.jpg",
     "static/media/me-coding.jpg": "/kk-website/static/media/me-coding.75d6048f4a52a9ab54a8.jpg",
     "static/media/interac.jpg": "/kk-website/static/media/interac.a5550a0085d47eb416b4.jpg",
     "static/media/background.svg": "/kk-website/static/media/background.fa3b1181537fa886d651.svg",
     "static/media/cpost.jpg": "/kk-website/static/media/cpost.077cb25323cf1d434a5c.jpg",
     "static/media/hc.jpg": "/kk-website/static/media/hc.de9d74ee6f6a7f6c9a2d.jpg",
+    "static/media/copied.svg": "/kk-website/static/media/copied.9efe3a9f317789d5365f7c35e88e8383.svg",
+    "static/media/resume.svg": "/kk-website/static/media/resume.4f23acdc3ef73ec9e3ead920c5276317.svg",
     "index.html": "/kk-website/index.html",
+    "static/media/linkedin.svg": "/kk-website/static/media/linkedin.9e0f7fefd435482ac2157c0461378d32.svg",
+    "static/media/github.svg": "/kk-website/static/media/github.510ca0c4d31e3512b5b0d3bfda3c05bf.svg",
     "static/media/hamburger.svg": "/kk-website/static/media/hamburger.66e65040a39bc10b980155ffdabac17e.svg",
-    "main.593664d5.css.map": "/kk-website/static/css/main.593664d5.css.map",
-    "main.8c70a422.js.map": "/kk-website/static/js/main.8c70a422.js.map"
+    "static/media/copy.svg": "/kk-website/static/media/copy.2768c9472f05fb99126a7dd3b12bd1a3.svg",
+    "main.52387044.css.map": "/kk-website/static/css/main.52387044.css.map",
+    "main.ff6c05db.js.map": "/kk-website/static/js/main.ff6c05db.js.map"
   },
   "entrypoints": [
-    "static/css/main.593664d5.css",
-    "static/js/main.8c70a422.js"
+    "static/css/main.52387044.css",
+    "static/js/main.ff6c05db.js"
   ]
 }
