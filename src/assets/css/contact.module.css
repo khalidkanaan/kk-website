@@ -1,0 +1,102 @@
+:root {
+  --text-color: #e0e0e0;
+  --transition-speed: 0.3s;
+}
+
+.ContactPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  color: var(--text-color);
+  background-color: #121212;
+  max-width: 40rem;
+  margin: 7rem auto;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  text-align: center;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.25rem;
+}
+
+.contactItem span {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.link {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color var(--transition-speed) ease-in-out;
+}
+
+.link:hover {
+  color: #1a75d1;
+}
+
+.copyIcon {
+  width: 1.5rem;
+  cursor: pointer;
+  transition: transform var(--transition-speed) ease-in-out, opacity var(--transition-speed) ease-in-out;
+  opacity: 0.85;
+}
+
+.copyIcon:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+  transition: transform var(--transition-speed) ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width:480px){.ContactPage{margin:1rem;padding:1rem}.title{font-size:1.8rem}.description{font-size:1rem}.contactItem{font-size:.9rem}.socialLinks{margin:1rem}}
+@media (min-width:481px) and (max-width:1024px){.ContactPage{margin:1rem auto;padding:1.5rem}.title{font-size:2rem}.description{font-size:1.05rem}.contactItem{font-size:.95rem}.socialLinks{margin:1.5rem}}
+@media (min-width:2560px){.ContactPage{padding:3rem}.title{font-size:3rem}.description{font-size:1.3rem}.contactItem{font-size:1.2rem}.socialLinks{margin:3rem}.icon{width:7rem;height:7rem}}

@@ -3,6 +3,7 @@ import './assets/css/App.css';
 import Header from "./components/Header"
 import HomePage from "./pages/HomePage";
 import ExperiencePage from "./pages/ExperiencePage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -12,9 +13,8 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="experience" element={<ExperiencePage />} />
           {/* Todo: replace element placeholder with actual component when it's created */}
-          <Route path="experience" element={<ExperiencePage />} />
           <Route path="projects" element={<ExperiencePage />} />
-          <Route path="education" element={<ExperiencePage />} />
+          <Route path="contact" element={<ContactPage />} />
       </Routes>
     </div>
   );
