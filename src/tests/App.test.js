@@ -18,7 +18,7 @@ const checkHeaderElements = () => {
   const introLink = screen.getByRole('link', { name: /Introduction/i });
   const experienceLink = screen.getByRole('link', { name: /Experience/i });
   const projectsLink = screen.getByRole('link', { name: /Projects/i });
-  const educationLink = screen.getByRole('link', { name: /Education/i });
+  const educationLink = screen.getByRole('link', { name: /contact/i });
   const logoElement = screen.getByText(/KHALIDKANAAN/i);
 
   expect(introLink).toBeInTheDocument();

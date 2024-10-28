@@ -24,7 +24,7 @@ function Header() {
         <Link to="/" onClick={toggleMenu}>Introduction</Link>
         <Link to="/experience" onClick={toggleMenu}>Experience</Link>
         <Link to="/projects" onClick={toggleMenu}>Projects</Link>
-        <Link to="/education" onClick={toggleMenu}>Education</Link>
+        <Link to="/contact" onClick={toggleMenu}>Contact</Link>
       </nav>
     </div>
   );
