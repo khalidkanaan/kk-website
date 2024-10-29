@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../assets/css/card.module.css';
 
-const Card = ({ data }) => {
+const Card = ({ data, collapsibleDescription = false }) => {
   const { title, subtitle, description, image, imageAlt, links } = data;
+  const [showDescription, setShowDescription] = useState(!collapsibleDescription);
+
+  const toggleDescription = () => {
+    setShowDescription(!showDescription);
+  };
 
   return (
     <div className={styles.card}>
@@ -26,12 +31,21 @@ const Card = ({ data }) => {
       )}
       {description && (
         <>
-          {Array.isArray(description) ? (
-            description.map((desc, index) => (
-              <p key={index} className={styles.cardDescription}>{desc}</p>
-            ))
-          ) : (
-            <p className={styles.cardDescription}>{description}</p>
+          {collapsibleDescription && (
+            <button onClick={toggleDescription} className={styles.showMoreButton}>
+              {showDescription ? 'Less Details ↑' : 'More Details ↓'}
+            </button>
+          )}
+          {showDescription && (
+            <div className={styles.cardDescriptionContainer}>
+              {Array.isArray(description) ? (
+                description.map((desc, index) => (
+                  <p key={index} className={styles.cardDescription}>{desc}</p>
+                ))
+              ) : (
+                <p className={styles.cardDescription}>{description}</p>
+              )}
+            </div>
           )}
           <hr />
         </>
