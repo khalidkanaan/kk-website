@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1vw;
-  background-color: #33333333;
+  padding: 0.7vw;
+  border-bottom: double #0066ff;
+  background-color: #1818186c;
   font-size: 1.5rem;
   position: relative;
   z-index: 10;
