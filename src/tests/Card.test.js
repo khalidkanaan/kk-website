@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import Card from '../components/Card';
 
 describe('Card component', () => {
@@ -71,5 +71,27 @@ describe('Card component', () => {
     render(<Card data={dataWithoutImageAlt} />);
 
     expect(screen.getByAltText('cardImg')).toBeInTheDocument();
+  });
+
+  test('toggles description visibility with collapsibleDescription prop', () => {
+    render(<Card data={dataWithAllFields} collapsibleDescription={true} />);
+
+    const toggleButton = screen.getByRole('button', { name: 'More Details ↓' });
+    expect(toggleButton).toBeInTheDocument();
+    expect(screen.queryByText('Test Description')).not.toBeInTheDocument();
+
+    fireEvent.click(toggleButton);
+    expect(screen.getByText('Test Description')).toBeInTheDocument();
+    expect(toggleButton.textContent).toBe('Less Details ↑');
+
+    fireEvent.click(toggleButton);
+    expect(screen.queryByText('Test Description')).not.toBeInTheDocument();
+    expect(toggleButton.textContent).toBe('More Details ↓');
+  });
+
+  test('shows description by default if collapsibleDescription is false', () => {
+    render(<Card data={dataWithAllFields} collapsibleDescription={false} />);
+    expect(screen.getByText('Test Description')).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: /Details/ })).not.toBeInTheDocument();
   });
 });
