@@ -1,17 +1,16 @@
 .card {
-  border: 0.1rem solid #000000a2;
-  color: white;
-  background-color: rgba(30, 30, 50, 0.96);
+  color: hsla(0, 0%, 100%, 0.95);
+  background-color: #121212e6;
   border-radius: 0.5rem;
   overflow: hidden;
   margin: 0.75rem;
-  box-shadow: -0.25rem 0.25rem rgba(19, 32, 61, 0.5);
+  box-shadow: -0.3rem 0.4rem rgba(19, 32, 61, 0.5);
 }
 
 .card hr {
   border: 0;
   height: 1px;
-  background-color: white;
+  background-color: #007bff;
   margin: 1rem 0.75rem;
 }
 
@@ -57,4 +56,30 @@
 
 .cardButton:hover {
   background-color: #0056b3;
+}
+
+.showMoreButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.showMoreButton:hover {
+  background-color: #0056b3;
+  transform: translateY(-0.2rem);
+}
+
+.showMoreButton:active {
+  background-color: #0056b3;
+  transform: translateY(0);
 }
