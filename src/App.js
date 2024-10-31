@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import HomePage from "./pages/HomePage";
 import ExperiencePage from "./pages/ExperiencePage";
 import ContactPage from "./pages/ContactPage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
@@ -12,8 +13,7 @@ function App() {
       <Routes>
           <Route index element={<HomePage />} />
           <Route path="experience" element={<ExperiencePage />} />
-          {/* Todo: replace element placeholder with actual component when it's created */}
-          <Route path="projects" element={<ExperiencePage />} />
+          <Route path="projects" element={<ProjectsPage />} />
           <Route path="contact" element={<ContactPage />} />
       </Routes>
     </div>
