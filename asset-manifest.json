@@ -1,8 +1,16 @@
 {
   "files": {
     "main.css": "/kk-website/static/css/main.2fbb0ff3.css",
-    "main.js": "/kk-website/static/js/main.f2a138a2.js",
+    "main.js": "/kk-website/static/js/main.819a2aa4.js",
+    "static/media/msp.gif": "/kk-website/static/media/msp.367a32894ecc1f00e5b9.gif",
+    "static/media/jirawpf.gif": "/kk-website/static/media/jirawpf.94c1c00bc449776a773c.gif",
     "static/media/me.jpg": "/kk-website/static/media/me.8c63f6fb73a96429ae71.jpg",
+    "static/media/music.gif": "/kk-website/static/media/music.a568b575a0a675d14214.gif",
+    "static/media/monopoly.jpg": "/kk-website/static/media/monopoly.095b1ad5cedb46b8bb2f.jpg",
+    "static/media/cybered.jpg": "/kk-website/static/media/cybered.dd639a0e8e7e06c6c3dd.jpg",
+    "static/media/factory.jpg": "/kk-website/static/media/factory.f51f77b55d9dad8e4e3c.jpg",
+    "static/media/amazinbooks.jpg": "/kk-website/static/media/amazinbooks.a6b95c9c658a56776ed1.jpg",
+    "static/media/elevators.jpg": "/kk-website/static/media/elevators.12d389e7ed0c4ba14b6e.jpg",
     "static/media/me-coding.jpg": "/kk-website/static/media/me-coding.75d6048f4a52a9ab54a8.jpg",
     "static/media/interac.jpg": "/kk-website/static/media/interac.a5550a0085d47eb416b4.jpg",
     "static/media/background.svg": "/kk-website/static/media/background.fa3b1181537fa886d651.svg",
@@ -16,10 +24,10 @@
     "static/media/hamburger.svg": "/kk-website/static/media/hamburger.66e65040a39bc10b980155ffdabac17e.svg",
     "static/media/copy.svg": "/kk-website/static/media/copy.2768c9472f05fb99126a7dd3b12bd1a3.svg",
     "main.2fbb0ff3.css.map": "/kk-website/static/css/main.2fbb0ff3.css.map",
-    "main.f2a138a2.js.map": "/kk-website/static/js/main.f2a138a2.js.map"
+    "main.819a2aa4.js.map": "/kk-website/static/js/main.819a2aa4.js.map"
   },
   "entrypoints": [
     "static/css/main.2fbb0ff3.css",
-    "static/js/main.f2a138a2.js"
+    "static/js/main.819a2aa4.js"
   ]
 }
