@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kk-website/static/css/main.52387044.css",
-    "main.js": "/kk-website/static/js/main.ff6c05db.js",
+    "main.css": "/kk-website/static/css/main.2fbb0ff3.css",
+    "main.js": "/kk-website/static/js/main.f2a138a2.js",
     "static/media/me.jpg": "/kk-website/static/media/me.8c63f6fb73a96429ae71.jpg",
     "static/media/me-coding.jpg": "/kk-website/static/media/me-coding.75d6048f4a52a9ab54a8.jpg",
     "static/media/interac.jpg": "/kk-website/static/media/interac.a5550a0085d47eb416b4.jpg",
@@ -15,11 +15,11 @@
     "static/media/github.svg": "/kk-website/static/media/github.510ca0c4d31e3512b5b0d3bfda3c05bf.svg",
     "static/media/hamburger.svg": "/kk-website/static/media/hamburger.66e65040a39bc10b980155ffdabac17e.svg",
     "static/media/copy.svg": "/kk-website/static/media/copy.2768c9472f05fb99126a7dd3b12bd1a3.svg",
-    "main.52387044.css.map": "/kk-website/static/css/main.52387044.css.map",
-    "main.ff6c05db.js.map": "/kk-website/static/js/main.ff6c05db.js.map"
+    "main.2fbb0ff3.css.map": "/kk-website/static/css/main.2fbb0ff3.css.map",
+    "main.f2a138a2.js.map": "/kk-website/static/js/main.f2a138a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.52387044.css",
-    "static/js/main.ff6c05db.js"
+    "static/css/main.2fbb0ff3.css",
+    "static/js/main.f2a138a2.js"
   ]
 }
