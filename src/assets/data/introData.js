@@ -5,11 +5,11 @@ const introData = {
     Welcome: {
         title: "Welcome!",
         subtitle: "Thank you for visiting my little corner of the web :)",
-        description: "This site is a fun project where I’ve applied my React skills to create a smooth, " +
-                    "responsive experience. I’ve focused on making dynamic data management with JSON and " +
-                    "a flexible layout that works across all devices. Resize the page and watch the layout " +
-                    "adapt seamlessly! If you spot anything unusual, feel free to let me know.",
-        links: [
+        description: "This site showcases my DevOps-driven approach to web dev, where I used React to build a simple but scalable app. " +
+                    "I’ve adopted the TDD approach to ensure reliability and set up a CI/CD pipeline with GitHub workflows for seamless updates. " +
+                    "Reusable components and dynamic JSON data make content adaptable, while a GitHub Kanban board keeps me organized and agile. " +
+                    "Feel free to explore the source code, and let me know if you spot anything I could improve!",
+   links: [
             { label: "Source Code", url: "https://github.com/khalidkanaan/kk-website" },
         ]
     },
@@ -36,10 +36,10 @@ const introData = {
     Tools: {
         title: "Tools & Technologies",
         description: [
-            "Languages: Java, Python, C++, C#, JavaScript, TypeScript, HTML, CSS, PHP, C, assembly, Bash, PowerShell, Racket, MATLAB, Groovy, SQL, and NoSQL",
-            "Frameworks & Libraries: .NET, Node.js, Express, React.js, Jest, Angular, Spring Boot, Hibernate, Flask, PyTorch, scikit-learn, virtualenv, PostgreSQL, MySQL, SQLite, MongoDB, JDBC, Tomcat, Apache HTTP, nginx, Web Experience Toolkit (WET)",
+            "Languages: Java, Python, C++, C#, JavaScript, Typescript, HTML, CSS, PHP, C, Bash, Ruby, PowerShell, Racket, MATLAB, Groovy, Go, SQL, NoSQL",
+            "Frameworks & Libraries: .NET, Node, Express, React, Jest, Angular, Spring Boot, Hibernate, Flask, PyTorch, scikit-learn, virtualenv, PostgreSQL, MySQL, SQLite, MongoDB, JDBC, Tomcat, Apache HTTP, nginx, Web Experience Toolkit (WET)",
             "Concepts: Agile and DevOps Methodologies, CI/CD, IaC, Containerization, Orchestration, Configuration Management, Scripting & Automation, Cloud Computing (Azure), Networking fundamentals, Cryptography, Machine Learning, Object-Oriented Programming, Algorithms and Data Structures, RESTful Design, Cloud Native, UX/UI design",
-            "Developer Tools: Git, SVN, GitHub, Bitbucket, Jenkins, Ansible, Terraform, Docker, Kubernetes, Jira API, Confluence API, Azure, AWS, VS Code, Visual Studio IDE, Eclipse, IntelliJ"
+            "Developer Tools: Git, SVN, GitHub, Bitbucket, Jenkins, Ansible, Terraform, Docker, Helm, Kubernetes, Jira API, Confluence API, Docker, Azure Services, AWS, VS Code, Visual Studio IDE, Eclipse, IntelliJ"
         ]
     },
     KhalidCoding: {
