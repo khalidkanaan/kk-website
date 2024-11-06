@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kk-website/static/css/main.2fbb0ff3.css",
+    "main.css": "/kk-website/static/css/main.1b0ac87d.css",
     "main.js": "/kk-website/static/js/main.819a2aa4.js",
     "static/media/msp.gif": "/kk-website/static/media/msp.367a32894ecc1f00e5b9.gif",
     "static/media/jirawpf.gif": "/kk-website/static/media/jirawpf.94c1c00bc449776a773c.gif",
@@ -23,11 +23,11 @@
     "static/media/github.svg": "/kk-website/static/media/github.510ca0c4d31e3512b5b0d3bfda3c05bf.svg",
     "static/media/hamburger.svg": "/kk-website/static/media/hamburger.66e65040a39bc10b980155ffdabac17e.svg",
     "static/media/copy.svg": "/kk-website/static/media/copy.2768c9472f05fb99126a7dd3b12bd1a3.svg",
-    "main.2fbb0ff3.css.map": "/kk-website/static/css/main.2fbb0ff3.css.map",
+    "main.1b0ac87d.css.map": "/kk-website/static/css/main.1b0ac87d.css.map",
     "main.819a2aa4.js.map": "/kk-website/static/js/main.819a2aa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fbb0ff3.css",
+    "static/css/main.1b0ac87d.css",
     "static/js/main.819a2aa4.js"
   ]
 }
